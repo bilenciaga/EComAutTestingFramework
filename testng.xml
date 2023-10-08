@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="mySuite">
+<!--    <test name="test1">-->
+<!--        <parameter name="browser" value="chrome" />-->
+<!--        <parameter name="headless" value="false" />-->
+<!--        <classes>-->
+<!--            <class name="tests.OrderCompleteTest" />-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--    <test name="test2">-->
+<!--        <parameter name="browser" value="chrome" />-->
+<!--        <parameter name="headless" value="false" />-->
+<!--        <classes>-->
+<!--            <class name="tests.AddRemoveItemBasketTest" />-->
+<!--        </classes>-->
+<!--    </test>-->
+    <test name="test3">
+        <parameter name="browser" value="chrome" />
+        <parameter name="headless" value="false" />
+        <classes>
+            <class name="tests.LoginTest" />
+        </classes>
+    </test>
+</suite>
+
+<!--parallel="tests" thread-count="2"-->
